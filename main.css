@@ -14,13 +14,14 @@
     border-bottom-right-radius: 1rem;
     margin: auto;
     box-shadow: 0 1px 4px rgba(6, 121, 236, 0.15);
-    padding:0.5rem 2rem 0.5rem 5rem;
+    padding:0.5rem 2rem 0.5rem 3rem;
     max-width: 1200px;
     margin: auto;
 }
 .logo{
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    align-content:center;
 }
 /* list */
 .list-non-bullet{
@@ -350,6 +351,10 @@
 
 
 @media (max-width: 500px) {
+    .logo{
+        color: white;
+        font-size: 1.5rem;
+    }
     .coder-name {
         color: var(--blue);
         margin: auto;
@@ -578,6 +583,7 @@
     }
     .techs{
         width:45%;
+        align-content: center;
     }
 
     .project-row{
@@ -587,5 +593,9 @@
 
     .work-card{
         width:50%;
+    }
+    .project-row{
+        display: flex;
+        justify-content: space-between;
     }
 }
